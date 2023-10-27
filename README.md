@@ -25,6 +25,11 @@ Manage, backup multiple servers and sites in 1 panel.
  -  ffmpeg	
  -  SSH/SFTP
 
+**Installation**
+
+Just simply run this command:
+wget -O - raw.githubusercontent.com/PurePanel/PurePanel/main/install.sh | bash
+
 Used with PHP & Laravel using Openclassify. 
 Pure is rewritten and modular version of cipi.sh
 
