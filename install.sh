@@ -558,10 +558,7 @@ mkdir /var/www
 cd /var/www && git clone https://github.com/$REPO.git .
 cd /var/www && sudo cp .env-example .env
 
-sudo rpl -i -w "DB_HOST=host.docker.internal" "DB_HOST=localhost" /var/www/.env
-sudo rpl -i -w "DB_USERNAME=oc" "DB_USERNAME=pure" /var/www/.env
-sudo rpl -i -w "DB_PASSWORD=oc" "DB_PASSWORD=$DBPASS" /var/www/.env
-sudo rpl -i -w "DB_DATABASE=oc" "DB_DATABASE=pure" /var/www/.env
+sudo rpl -i -w "DB_PASSWORD=pure" "DB_PASSWORD=$DBPASS" /var/www/.env
 sudo rpl -i -w "APP_URL=http://localhost" "APP_URL=http://$IP" /var/www/.env
 
 
