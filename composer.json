@@ -62,7 +62,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/emrullahardc/users-module.git"
+            "url": "https://github.com/PurePanel/users-module.git"
         },
         {
             "type": "composer",
