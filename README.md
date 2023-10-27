@@ -3,3 +3,6 @@
 
 
 Pure is rewritten and modular version of cipi.sh
+
+It's lightweight only the components you need, aiming for simplicity and simplicity.
+
