@@ -45,7 +45,6 @@
         "guzzlehttp/guzzle": "^7.3",
         "visiosoft/defaultadmin-theme": "^1.0",
         "visiosoft/language_switcher-plugin": "^1.0",
-        "visiosoft/base-theme": "^1.0",
         "visiosoft/server-module": "*",
         "visiosoft/site-module": "*",
         "php-http/message-factory": "^1.1"
