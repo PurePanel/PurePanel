@@ -31,7 +31,6 @@ bgpurple=$(tput setab 5)
 #################################################### PURE SETUP ######
 
 
-
 # LOGO
 clear
 echo "${green}${bold}"
@@ -286,7 +285,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo service php7.4-fpm restart
+sudo DEBIAN_FRONTEND=noninteractive service php7.4-fpm restart
 
 sudo apt-get -y install php8.0-fpm
 sudo apt-get -y install php8.0-common
@@ -318,7 +317,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo service php8.0-fpm restart
+sudo DEBIAN_FRONTEND=noninteractive service php8.0-fpm restart
 
 sudo apt-get -y install php8.1-fpm
 sudo apt-get -y install php8.1-common
@@ -350,7 +349,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo service php8.1-fpm restart
+sudo DEBIAN_FRONTEND=noninteractive service php8.1-fpm restart
 
 # PHP EXTRA
 sudo apt-get -y install php-dev php-pear
