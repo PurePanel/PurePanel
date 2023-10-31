@@ -60,12 +60,12 @@ ID=$(grep -oP '(?<=^ID=).+' /etc/os-release | tr -d '"')
 VERSION=$(grep -oP '(?<=^VERSION_ID=).+' /etc/os-release | tr -d '"')
 if [ "$ID" = "ubuntu" ]; then
     case $VERSION in
-        20.04)
+        22.04)
             break
             ;;
         *)
             echo "${bgred}${white}${bold}"
-            echo "PURE requires Linux Ubuntu 20.04 LTS"
+            echo "PURE requires Linux Ubuntu 22.04 LTS"
             echo "${reset}"
             exit 1;
             break
@@ -73,7 +73,7 @@ if [ "$ID" = "ubuntu" ]; then
     esac
 else
     echo "${bgred}${white}${bold}"
-    echo "PURE requires Linux Ubuntu 20.04 LTS"
+    echo "PURE requires Linux Ubuntu 22.04 LTS"
     echo "${reset}"
     exit 1
 fi
