@@ -1,7 +1,7 @@
 
-# PurePanel
-<img width="421" alt="SCR-20231027-plvg" src="https://github.com/PurePanel/PurePanel/assets/219454/a16fec03-1acd-446a-9115-a364ebd8773f">
+![image](https://github.com/PurePanel/PurePanel/assets/219454/3280aec8-3ec6-4ac3-bc40-7a324c5159d5)
 
+# PurePanel
 
 It's lightweight only the components you need, aiming for simplicity and simplicity.
 
