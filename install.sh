@@ -59,12 +59,12 @@ ID=$(grep -oP '(?<=^ID=).+' /etc/os-release | tr -d '"')
 VERSION=$(grep -oP '(?<=^VERSION_ID=).+' /etc/os-release | tr -d '"')
 if [ "$ID" = "ubuntu" ]; then
     case $VERSION in
-        22.04)
+        20.04)
             break
             ;;
         *)
             echo "${bgred}${white}${bold}"
-            echo "PURE requires Linux Ubuntu 22.04 LTS"
+            echo "PURE requires Linux Ubuntu 20.04 LTS"
             echo "${reset}"
             exit 1;
             break
@@ -72,7 +72,7 @@ if [ "$ID" = "ubuntu" ]; then
     esac
 else
     echo "${bgred}${white}${bold}"
-    echo "PURE requires Linux Ubuntu 22.04 LTS"
+    echo "PURE requires Linux Ubuntu 20.04 LTS"
     echo "${reset}"
     exit 1
 fi
@@ -285,7 +285,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo DEBIAN_FRONTEND=noninteractive service php7.4-fpm restart
+sudo service php7.4-fpm restart
 
 sudo apt-get -y install php8.0-fpm
 sudo apt-get -y install php8.0-common
@@ -317,7 +317,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo DEBIAN_FRONTEND=noninteractive service php8.0-fpm restart
+sudo service php8.0-fpm restart
 
 sudo apt-get -y install php8.1-fpm
 sudo apt-get -y install php8.1-common
@@ -349,7 +349,7 @@ post_max_size = 256M
 max_execution_time = 180
 max_input_time = 180
 EOF
-sudo DEBIAN_FRONTEND=noninteractive service php8.1-fpm restart
+sudo service php8.1-fpm restart
 
 # PHP EXTRA
 sudo apt-get -y install php-dev php-pear
