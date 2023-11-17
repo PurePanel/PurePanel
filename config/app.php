@@ -253,22 +253,6 @@ return [
         'Str' => Illuminate\Support\Str::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
-        'Sentry' => Sentry\Laravel\Facade::class,
-
-
-        /**
-         * Todo
-         * 30.11.2022
-         * It has been added for the use of 'with' in the PyroCMS Users Model file.
-         * Translate(trans) function does not accept nested arrays.
-         */
-        'Anomaly\UsersModule\User\Notification\ActivateYourAccount' => \App\Notification\ActivateYourAccount::class,
-        'Anomaly\UsersModule\User\Notification\PasswordInvalidated' => \App\Notification\PasswordInvalidated::class,
-        'Anomaly\UsersModule\User\Notification\ResetYourPassword' => \App\Notification\ResetYourPassword::class,
-        'Anomaly\UsersModule\User\Notification\UserHasBeenActivated' => \App\Notification\UserHasBeenActivated::class,
-        'Anomaly\UsersModule\User\Notification\UserHasRegistered' => \App\Notification\UserHasRegistered::class,
-        'Anomaly\UsersModule\User\Notification\UserPendingActivation' => \App\Notification\UserPendingActivation::class,
-
+        'View' => Illuminate\Support\Facades\View::class
     ],
 ];

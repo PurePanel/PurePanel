@@ -1,7 +1,5 @@
 <?php
 
-use App\Exceptions\ExceptionHandler;
-
 return [
 
     /*
@@ -13,14 +11,7 @@ return [
     |
     */
 
-    'listeners' => [
-        \Anomaly\Streams\Platform\Event\Booted::class => [
-            \App\Listeners\Translations::class
-        ],
-        \Anomaly\Streams\Platform\Ui\Form\Event\FormWasSaved::class => [
-            \App\Listeners\EnableMaintenanceMode::class
-        ],
-    ],
+    'listeners' => [],
 
     /*
     |--------------------------------------------------------------------------
@@ -31,9 +22,7 @@ return [
     |
     */
 
-    'bindings' => [
-        'Anomaly\Streams\Platform\Exception\ExceptionHandler' => ExceptionHandler::class
-    ],
+    'bindings' => [],
 
     /*
     |--------------------------------------------------------------------------
@@ -89,6 +78,8 @@ return [
     | By default Laravel's default middleware stack will be ran.
     |
     */
+
+    'middleware' => [],
 
     /*
     |--------------------------------------------------------------------------

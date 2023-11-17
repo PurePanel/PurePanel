@@ -30,7 +30,6 @@ return [
     'deferred' => [
         'vendor/anomaly/pages-module',
         'vendor/anomaly/redirects-module',
-        'vendor/visiosoft/advs-module',
     ]
 
 ];
