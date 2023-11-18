@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name'        => 'OpenClassify',
-    'description' => 'OpenClassify is the extensible and most advanced open source classified app build with Laravel.',
-    'version'     => 'v3.6-alpha',
+    'name'        => 'Pure Panei',
+    'description' => 'Pure Panel is a comprehensive server management platform that offers robust server administration, including backup, multi-server control, transfer, and website publishing capabilities.',
+    'version'     => 'v1.0-beta',
 ];

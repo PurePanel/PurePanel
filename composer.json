@@ -90,7 +90,7 @@
         "visiosoft/site-module": "*",
         "visiosoft/transfer-module": "*",
         "leafo/scssphp": "^0.8.2",
-        "pyrocms/accelerant-theme": "^1.2"
+        "visiosoft/puredash-theme": "^1.0"
     },
     "replace": {
         "anomaly/streams-platform": "*"

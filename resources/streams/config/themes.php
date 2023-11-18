@@ -11,6 +11,6 @@ return [
     |
     */
 
-    'admin'    => env('ADMIN_THEME', 'pyrocms.theme.accelerant'),
+    'admin'    => env('ADMIN_THEME', 'visiosoft.theme.puredash'),
     'standard' => env('STANDARD_THEME', 'visiosoft.theme.base')
 ];
