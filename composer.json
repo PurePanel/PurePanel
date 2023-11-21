@@ -86,11 +86,12 @@
         "guzzlehttp/guzzle": "^7.3",
         "visiosoft/language_switcher-plugin": "^1.0",
         "php-http/message-factory": "^1.1",
-        "visiosoft/server-module": "*",
-        "visiosoft/site-module": "*",
-        "visiosoft/transfer-module": "*",
+        "purepanel/server-module":"^1.0",
+        "purepanel/site-module": "^1.0",
+        "purepanel/transfer-module": "^1.0",
         "leafo/scssphp": "^0.8.2",
-        "visiosoft/puredash-theme": "^1.0"
+        "purepanel/puredash-theme": "^1.0"
+        "purepanel/pure-theme": "^1.0"
     },
     "replace": {
         "anomaly/streams-platform": "*"
