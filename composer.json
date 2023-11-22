@@ -91,7 +91,9 @@
         "leafo/scssphp": "^0.8.2",
         "purepanel/puredash-theme": "^1.0",
         "purepanel/pure-theme": "^1.0",
-        "purepanel/site-module": "^1.0"
+        "purepanel/site-module": "^1.0",
+        "purepanel/recipes-module": "^1.0",
+        "purepanel/api-extension": "^1.0"
     },
     "replace": {
         "anomaly/streams-platform": "*"
