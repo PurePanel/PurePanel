@@ -37,4 +37,4 @@ Pure is rewritten and modular version of cipi.sh
 Credits goes to: https://cipi.sh
 
 
-Visit Api Documentation : https://documenter.getpostman.com/view/4871431/2s9YeBctEY
+Visit Api Documentation : https://documenter.getpostman.com/view/4871431/2s9YeBdDBY
