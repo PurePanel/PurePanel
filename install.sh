@@ -621,7 +621,7 @@ touch $TASK
 cat > "$TASK" <<EOF
 [program:pure-worker]
 process_name=%(program_name)s_%(process_num)02d
-command=php /var/www/artisan queue:work --sleep=3 --tries=3 --max-time=3600
+command=php /var/www/artisan queue:work --sleep=3 --tries=1 --max-time=36000
 autostart=true
 autorestart=true
 stopasgroup=true
