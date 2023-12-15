@@ -23,6 +23,9 @@
         }
     ],
     "require": {
+        "anomaly/redirects-module": "2.5.x-dev",
+
+
         "visiosoft/streams-platform": "dev-fatih",
 
         "anomaly/default_authenticator-extension": "2.2.x-dev",
@@ -44,7 +47,6 @@
         "anomaly/text-field_type": "~2.2.0",
         "anomaly/editor-field_type": "~3.1.0",
         "anomaly/addon-field_type": "2.3.x-dev",
-        "anomaly/redirects-module": "2.5.x-dev",
         "anomaly/url-field_type": "~2.2.0",
         "anomaly/wysiwyg-field_type": "3.2.x-dev",
 
@@ -73,10 +75,6 @@
         "anomaly/streams-platform": "*"
     },
     "require-dev": {
-        "filp/whoops": "~2.0",
-        "fzaninotto/faker": "~1.4",
-        "symfony/css-selector": "3.1.*",
-        "symfony/dom-crawler": "3.1.*"
     },
     "repositories": [
         {
@@ -105,14 +103,18 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "*"
-            ]
+            "dont-discover": []
         }
     },
     "config": {
-        "bin-dir": "bin",
+        "optimize-autoloader": true,
         "preferred-install": "dist",
-        "optimize-autoloader": true
-    }
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
