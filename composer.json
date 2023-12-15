@@ -27,11 +27,6 @@
 
         "anomaly/default_authenticator-extension": "2.2.x-dev",
         "anomaly/private_storage_adapter-extension": "1.2.x-dev",
-        "anomaly/throttle_security_check-extension": "2.2.x-dev",
-        "anomaly/default_page_handler-extension": "2.2.x-dev",
-        "anomaly/user_security_check-extension": "2.2.x-dev",
-        "anomaly/xml_feed_widget-extension": "2.2.x-dev",
-
 
         "anomaly/relationship-field_type": "2.3.x-dev",
         "anomaly/polymorphic-field_type": "~2.1.0",
@@ -52,13 +47,15 @@
         "anomaly/url-field_type": "~2.2.0",
         "anomaly/wysiwyg-field_type": "3.2.x-dev",
 
-
         "anomaly/configuration-module": "2.2.x-dev",
         "anomaly/preferences-module": "2.3.x-dev",
         "anomaly/dashboard-module": "2.3.x-dev",
         "anomaly/settings-module": "2.5.x-dev",
         "anomaly/users-module": "2.6.x-dev",
         "anomaly/files-module": "2.7.x-dev",
+
+        "anomaly/preferences-module": "2.3.x-dev",
+
         "anomaly/helper-plugin": "~2.1.0",
         "anomaly/pages-module": "2.7.x-dev",
 
