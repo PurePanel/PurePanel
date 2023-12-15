@@ -46,24 +46,24 @@
         "anomaly/tags-field_type": "2.5.x-dev",
         "anomaly/slug-field_type": "~2.1.0",
         "anomaly/text-field_type": "~2.2.0",
-
+        "anomaly/editor-field_type": "~3.1.0",
+        "anomaly/addon-field_type": "2.3.x-dev",
         "anomaly/redirects-module": "2.5.x-dev",
-
         "anomaly/url-field_type": "~2.2.0",
+        "anomaly/wysiwyg-field_type": "3.2.x-dev",
+
+
         "anomaly/configuration-module": "2.2.x-dev",
         "anomaly/preferences-module": "2.3.x-dev",
         "anomaly/dashboard-module": "2.3.x-dev",
         "anomaly/settings-module": "2.5.x-dev",
-
         "anomaly/users-module": "2.6.x-dev",
         "anomaly/files-module": "2.7.x-dev",
         "anomaly/helper-plugin": "~2.1.0",
-
         "anomaly/pages-module": "2.7.x-dev",
 
         "visiosoft/composer-merge-plugin": "2.*",
         "composer/composer": "2.*",
-        "anomaly/addon-field_type": "2.3.x-dev",
 
         "purepanel/server-module":"^1.0",
         "purepanel/transfer-module": "^1.0",
