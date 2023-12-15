@@ -7,6 +7,9 @@ echo "================================================"
 
 echo "$(date)"
 docker --version
+rm -rf vendor
+rm -f composer.lock
+
 cp .env-sail .env
 docker compose up
 echo "$(date)"
