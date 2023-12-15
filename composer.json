@@ -27,6 +27,7 @@
 
         "anomaly/default_authenticator-extension": "2.2.x-dev",
         "anomaly/private_storage_adapter-extension": "1.2.x-dev",
+        "anomaly/default_page_handler-extension": "2.2.x-dev",
 
         "anomaly/relationship-field_type": "2.3.x-dev",
         "anomaly/polymorphic-field_type": "~2.1.0",
@@ -56,10 +57,8 @@
 
         "anomaly/preferences-module": "2.3.x-dev",
 
-        "anomaly/helper-plugin": "~2.1.0",
         "anomaly/pages-module": "2.7.x-dev",
 
-        "visiosoft/composer-merge-plugin": "2.*",
         "composer/composer": "2.*",
 
         "purepanel/server-module":"^1.0",
@@ -105,14 +104,6 @@
         ]
     },
     "extra": {
-        "merge-plugin": {
-            "include": [
-                "addons/*/*/*/composer.json",
-                "core/*/*/composer.json"
-            ],
-            "recurse": true,
-            "replace": false
-        },
         "laravel": {
             "dont-discover": [
                 "*"
@@ -122,10 +113,6 @@
     "config": {
         "bin-dir": "bin",
         "preferred-install": "dist",
-        "optimize-autoloader": true,
-        "allow-plugins": {
-            "visiosoft/composer-merge-plugin": true,
-            "php-http/discovery": true
-        }
+        "optimize-autoloader": true
     }
 }
