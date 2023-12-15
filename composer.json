@@ -24,14 +24,13 @@
     ],
     "require": {
         "anomaly/redirects-module": "2.5.x-dev",
-
-
-        "visiosoft/streams-platform": "dev-fatih",
-
-        "anomaly/default_authenticator-extension": "2.2.x-dev",
-        "anomaly/private_storage_adapter-extension": "1.2.x-dev",
+        "anomaly/preferences-module": "2.3.x-dev",
+        "anomaly/pages-module": "2.7.x-dev",
         "anomaly/default_page_handler-extension": "2.2.x-dev",
 
+        "visiosoft/streams-platform": "dev-fatih",
+        "anomaly/default_authenticator-extension": "2.2.x-dev",
+        "anomaly/private_storage_adapter-extension": "1.2.x-dev",
         "anomaly/relationship-field_type": "2.3.x-dev",
         "anomaly/polymorphic-field_type": "~2.1.0",
         "anomaly/checkboxes-field_type": "2.5.x-dev",
@@ -49,18 +48,11 @@
         "anomaly/addon-field_type": "2.3.x-dev",
         "anomaly/url-field_type": "~2.2.0",
         "anomaly/wysiwyg-field_type": "3.2.x-dev",
-
         "anomaly/configuration-module": "2.2.x-dev",
-        "anomaly/preferences-module": "2.3.x-dev",
         "anomaly/dashboard-module": "2.3.x-dev",
         "anomaly/settings-module": "2.5.x-dev",
         "anomaly/users-module": "2.6.x-dev",
         "anomaly/files-module": "2.7.x-dev",
-
-        "anomaly/preferences-module": "2.3.x-dev",
-
-        "anomaly/pages-module": "2.7.x-dev",
-
         "composer/composer": "2.*",
 
         "purepanel/server-module":"^1.0",
@@ -74,8 +66,7 @@
     "replace": {
         "anomaly/streams-platform": "*"
     },
-    "require-dev": {
-    },
+    "require-dev": {},
     "repositories": [
         {
             "type": "composer",
