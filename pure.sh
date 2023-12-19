@@ -20,7 +20,7 @@ cp .env-sail .env
 #wait
 ##docker-compose start database &
 #wait
-docker-compose restart php
+#docker-compose restart php
 
 docker compose up
 echo "$(date)"
