@@ -44,18 +44,19 @@
         "anomaly/addon-field_type": "2.3.x-dev",
         "anomaly/url-field_type": "~2.2.0",
         "anomaly/wysiwyg-field_type": "3.2.x-dev",
+
         "anomaly/configuration-module": "2.2.x-dev",
         "anomaly/dashboard-module": "2.3.x-dev",
         "anomaly/settings-module": "2.5.x-dev",
         "anomaly/users-module": "2.6.x-dev",
         "anomaly/files-module": "2.7.x-dev",
-        "composer/composer": "2.*",
 
+        "composer/composer": "2.*",
         "anomaly/helper-plugin": "~2.1.0",
 
         "purepanel/server-module":"^1.0",
         "purepanel/transfer-module": "^1.0",
-        "purepanel/puredash-theme": "^1.0",
+        "purepanel/puredash-theme": "dev-fatih",
         "purepanel/pure-theme": "^1.0",
         "purepanel/site-module": "^1.0",
         "purepanel/recipes-module": "^1.0",
