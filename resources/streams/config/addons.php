@@ -13,8 +13,6 @@ return [
     */
 
     'eager' => [
-        'vendor/anomaly/settings-module',
-        'vendor/anomaly/preferences-module',
     ],
 
     /*
@@ -28,8 +26,6 @@ return [
     */
 
     'deferred' => [
-        'vendor/anomaly/pages-module',
-        'vendor/anomaly/redirects-module',
     ]
 
 ];
