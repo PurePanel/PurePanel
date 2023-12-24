@@ -4,7 +4,6 @@
     "type": "project",
     "keywords": [
         "Pure Panel",
-        "CMS",
         "Server Management",
         "Cloud Management",
         "Site Management",
@@ -23,7 +22,7 @@
         }
     ],
     "require": {
-        "visiosoft/streams-platform": "dev-fatih",
+        "visiosoft/streams-platform": "dev-twig3",
         "anomaly/default_authenticator-extension": "2.2.x-dev",
         "anomaly/private_storage_adapter-extension": "1.2.x-dev",
 
@@ -45,14 +44,14 @@
         "anomaly/url-field_type": "~2.2.0",
         "anomaly/wysiwyg-field_type": "3.2.x-dev",
 
-        "anomaly/configuration-module": "2.2.x-dev",
-        "anomaly/dashboard-module": "2.3.x-dev",
-        "anomaly/settings-module": "2.5.x-dev",
-        "anomaly/users-module": "2.6.x-dev",
-        "anomaly/files-module": "2.7.x-dev",
+        "purepanel/configuration-module": "3.0.x-dev",
+        "purepanel/dashboard-module": "2.3.x-dev",
+        "purepanel/settings-module": "3.0.x-dev",
+        "purepanel/users-module": "3.0.x-dev",
+        "purepanel/files-module": "2.7.x-dev",
+        "purepanel/helper-plugin": "3.0.x-dev",
 
         "composer/composer": "2.*",
-        "anomaly/helper-plugin": "~2.1.0",
 
         "purepanel/server-module":"^1.0",
         "purepanel/transfer-module": "^1.0",
