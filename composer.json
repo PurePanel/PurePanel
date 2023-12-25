@@ -47,7 +47,7 @@
         "purepanel/configuration-module": "3.0.x-dev",
         "purepanel/dashboard-module": "2.3.x-dev",
         "purepanel/settings-module": "3.0.x-dev",
-        "purepanel/users-module": "3.0.x-dev",
+        "purepanel/users-module": "dev-twig3",
         "purepanel/files-module": "2.7.x-dev",
         "purepanel/helper-plugin": "3.0.x-dev",
 

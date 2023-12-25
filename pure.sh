@@ -22,7 +22,10 @@ cp .env-sail .env
 #wait
 #docker-compose restart php
 
-docker compose up
+# docker compose up
+composer install
+php artisan install --ready
+
 echo "$(date)"
 duration=$SECONDS
 echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
