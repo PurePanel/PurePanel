@@ -627,10 +627,9 @@ autorestart=true
 stopasgroup=true
 killasgroup=true
 user=pure
-numprocs=8
+numprocs=1
 redirect_stderr=true
 stdout_logfile=/var/www/worker.log
-stopwaitsecs=3600
 EOF
 sudo supervisorctl reread
 sudo supervisorctl update
