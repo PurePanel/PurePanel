@@ -582,6 +582,17 @@ sudo chmod -R o+w /var/www/bootstrap/cache
 sudo chmod -R 775 /var/www/bootstrap/cache
 sudo chown -R www-data:pure /var/www
 
+clear
+echo "${bggreen}${black}${bold}"
+echo "Installing PhpMyAdmin 5.2.1 ..."
+echo "${reset}"
+sleep 1s
+
+# Install PhpMyAdmin
+cd /var/www/public && wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip
+cd /var/www/public && unzip phpMyAdmin-5.2.1-all-languages.zip
+rm -rf /var/www/public/phpMyAdmin-5.2.1-all-languages.zip
+mv /var/www/public/phpMyAdmin-5.2.1-all-languages/ /var/www/public/pma
 
 
 # LAST STEPS
