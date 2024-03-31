@@ -351,6 +351,18 @@ max_input_time = 180
 EOF
 sudo service php8.1-fpm restart
 
+sudo apt-get -y install php8.2-fpm php8.2-common php8.2-curl php8.2-bcmath php8.2-mbstring php8.2-tokenizer php8.2-mysql php8.2-sqlite3 php8.2-pgsql php8.2-redis php8.2-memcached php8.2-zip php8.2-xml php8.2-soap php8.2-gd php8.2-imagick php8.2-fileinfo php8.2-imap php8.2-cli
+PHPINI=/etc/php/8.2/fpm/conf.d/pure.ini
+sudo touch $PHPINI
+sudo cat > "$PHPINI" <<EOF
+memory_limit = 256M
+upload_max_filesize = 256M
+post_max_size = 256M
+max_execution_time = 180
+max_input_time = 180
+EOF
+sudo service php8.2-fpm restart
+
 # PHP EXTRA
 sudo apt-get -y install php-dev php-pear
 
@@ -362,7 +374,7 @@ echo "PHP CLI configuration..."
 echo "${reset}"
 sleep 1s
 
-sudo update-alternatives --set php /usr/bin/php8.0
+sudo update-alternatives --set php /usr/bin/php8.2
 
 
 
@@ -440,7 +452,7 @@ server {
     error_page 404 /index.php;
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
     }
     location ~ /\.(?!well-known).* {
         deny all;
@@ -582,6 +594,17 @@ sudo chmod -R o+w /var/www/bootstrap/cache
 sudo chmod -R 775 /var/www/bootstrap/cache
 sudo chown -R www-data:pure /var/www
 
+clear
+echo "${bggreen}${black}${bold}"
+echo "Installing PhpMyAdmin 5.2.1 ..."
+echo "${reset}"
+sleep 1s
+
+# Install PhpMyAdmin
+cd /var/www/public && wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip
+cd /var/www/public && unzip phpMyAdmin-5.2.1-all-languages.zip
+rm -rf /var/www/public/phpMyAdmin-5.2.1-all-languages.zip
+mv /var/www/public/phpMyAdmin-5.2.1-all-languages/ /var/www/public/pma
 
 
 # LAST STEPS
@@ -627,10 +650,9 @@ autorestart=true
 stopasgroup=true
 killasgroup=true
 user=pure
-numprocs=8
+numprocs=1
 redirect_stderr=true
 stdout_logfile=/var/www/worker.log
-stopwaitsecs=3600
 EOF
 sudo supervisorctl reread
 sudo supervisorctl update
