@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #################################################### CONFIGURATION ###
-BUILD=202112181
+BUILD=202401181
 PASS=$(openssl rand -base64 32|sha256sum|base64|head -c 32| tr '[:upper:]' '[:lower:]')
 DBPASS=$(openssl rand -base64 24|sha256sum|base64|head -c 32| tr '[:upper:]' '[:lower:]')
 SERVERID=$(openssl rand -base64 12|sha256sum|base64|head -c 32| tr '[:upper:]' '[:lower:]')
@@ -582,6 +582,16 @@ sudo chmod -R o+w /var/www/bootstrap/cache
 sudo chmod -R 775 /var/www/bootstrap/cache
 sudo chown -R www-data:pure /var/www
 
+PUREBUILD=/var/www/public/build_$SERVERID.php
+sudo touch $PUREBUILD
+sudo cat > $PUREBUILD <<EOF
+$BUILD
+EOF
+PUREPING=/var/www/public/ping_$SERVERID.php
+sudo touch $PUREPING
+sudo cat > $PUREPING <<EOF
+Up
+EOF
 
 
 # LAST STEPS
