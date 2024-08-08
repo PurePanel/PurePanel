@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "visiosoft/streams-platform": "dev-fatih2",
+        "visiosoft/streams-platform": "1.10.x-dev#1882ea741e2fae1431007a639a4d3f588c769863",
         "anomaly/default_authenticator-extension": "2.2.x-dev",
         "anomaly/private_storage_adapter-extension": "1.2.x-dev",
 
@@ -59,7 +59,8 @@
         "purepanel/pure-theme": "^1.0",
         "purepanel/site-module": "^1.0",
         "purepanel/recipes-module": "^1.0",
-        "purepanel/api-extension": "^1.0"
+        "purepanel/api-extension": "^1.0",
+        "barryvdh/laravel-debugbar" "*"
     },
     "replace": {
         "anomaly/streams-platform": "*"
