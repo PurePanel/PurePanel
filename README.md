@@ -8,9 +8,9 @@ It's lightweight only the components you need, aiming for simplicity and simplic
 Manage, backup multiple servers and sites in 1 panel.  
 
 **Pure Stack**
- - Ubuntu 20.04 LTS    
- - nginx	1.18    
- - MySql	8
+ - Ubuntu 24.04 LTS    
+ - nginx	1.27    
+ - MySql	9.1
  - node.js	16
  - npm	8
  - PHP-FPM	7.4 / 8.0 / 8.1
