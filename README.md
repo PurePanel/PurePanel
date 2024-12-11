@@ -29,7 +29,7 @@ Manage, backup multiple servers and sites in 1 panel.
 
 Just simply run this command on your server: (latest version)
 
-`wget -O - raw.githubusercontent.com/PurePanel/PurePanel/main/install.sh | bash` 
+`wget -O - raw.githubusercontent.com/KennethEhmsen/PurePanel/main/install.sh | bash` 
 
 Used with PHP & Laravel using Openclassify. 
 Pure is rewritten and modular version of cipi.sh
