@@ -39,7 +39,7 @@ echo "
        |  _ \| | | |  _ \| ____|
        | |_) | | | | |_) |  _|
        |  __/| |_| |  _ <| |___
-       |_|    \___/|_| \_\_____|"
+       |_|    \___/|_| \_\_____| NG"
 echo ""
 echo "Installation has been started... Hold on!"
 echo "${reset}"
