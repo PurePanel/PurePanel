@@ -34,7 +34,7 @@ Just simply run this command on your server: (latest version)
 Used with PHP & Laravel using Openclassify. 
 Pure is rewritten and modular version of cipi.sh
 
-Credits goes to: https://cipi.sh
+Credits goes to: https://cipi.sh and https://github.com/PurePanel
 
 
 Visit Api Documentation : https://documenter.getpostman.com/view/4871431/2s9YeBdDBY
