@@ -64,7 +64,7 @@ if [ "$ID" = "ubuntu" ]; then
             ;;
         *)
             echo "${bgred}${white}${bold}"
-            echo "PURE requires Linux Ubuntu 20.04 LTS"
+            echo "PURE requires Linux Ubuntu 24.04 LTS"
             echo "${reset}"
             exit 1;
             break
@@ -72,7 +72,7 @@ if [ "$ID" = "ubuntu" ]; then
     esac
 else
     echo "${bgred}${white}${bold}"
-    echo "PURE requires Linux Ubuntu 20.04 LTS"
+    echo "PURE requires Linux Ubuntu 24.04 LTS"
     echo "${reset}"
     exit 1
 fi
