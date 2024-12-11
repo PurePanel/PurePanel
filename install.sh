@@ -107,7 +107,7 @@ echo "Base setup..."
 echo "${reset}"
 sleep 1s
 
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade 
 sudo apt-get -y install software-properties-common curl wget nano vim rpl sed zip unzip openssl expect dirmngr apt-transport-https lsb-release ca-certificates dnsutils dos2unix zsh htop ffmpeg
 
 
