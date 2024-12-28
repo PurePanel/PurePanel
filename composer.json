@@ -60,7 +60,7 @@
         "purepanel/site-module": "^1.0",
         "purepanel/recipes-module": "^1.0",
         "purepanel/api-extension": "^1.0",
-        "barryvdh/laravel-debugbar" "*"
+        "barryvdh/laravel-debugbar": "*"
     },
     "replace": {
         "anomaly/streams-platform": "*"
