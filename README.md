@@ -3,6 +3,8 @@
 
 # PurePanel
 
+# Pure is not maintained anymore. Use vito istead: https://github.com/vitodeploy/vito
+
 It's lightweight only the components you need, aiming for simplicity and simplicity.
 
 Manage, backup multiple servers and sites in 1 panel.  
