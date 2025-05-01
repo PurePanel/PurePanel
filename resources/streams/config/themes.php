@@ -11,6 +11,6 @@ return [
     |
     */
 
-    'admin'    => env('ADMIN_THEME', 'visiosoft.theme.puredash'),
+    'admin'    => env('ADMIN_THEME', 'visiosoft.theme.defaultadmin'),
     'standard' => env('STANDARD_THEME', 'visiosoft.theme.base')
 ];

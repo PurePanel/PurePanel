@@ -55,7 +55,7 @@
 
         "purepanel/server-module":"^1.0",
         "purepanel/transfer-module": "^1.0",
-        "purepanel/puredash-theme": "dev-fatih",
+        "visiosoft/defaultadmin-theme": "*",
         "purepanel/pure-theme": "^1.0",
         "purepanel/site-module": "^1.0",
         "purepanel/recipes-module": "^1.0",
